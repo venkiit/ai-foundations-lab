@@ -17,7 +17,7 @@ make_api_call(
     model="Gemini", 
     prompt="What is Python", 
     tokens=10, 
-    gemini_api_key="4terfdeq3r4terfsdwe3", 
+    gemini_api_key="", 
     precision="1"
 )
 make_api_call(
@@ -29,7 +29,7 @@ make_api_call(
 make_api_call(
     model="chatgpt", 
     prompt="What is Python", 
-    chatgpt_account_id=11324560, 
-    password="23456",
+    chatgpt_account_id=0, 
+    password="0",
     precision="2"
 )
